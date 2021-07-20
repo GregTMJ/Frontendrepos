@@ -1,0 +1,32 @@
+{% extends 'main.html' %}
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>homepage</title>
+    <link rel="stylesheet" href="{% static 'Main_style.css' %}">
+</head>
+
+{% block content %}
+<style>
+ body {
+    background-image:
+    url("https://i.pinimg.com/originals/67/af/07/67af075af5156f5a1b059d5564d9843f.jpg");
+    background-repeat: no-repeat;
+    }
+    h1 {color : white;}
+</style>
+<body>
+
+<br><br>
+<br><br>
+<br><br>
+ <p class="block">So my hobby, as it is surprising for me, is playing the piano,
+        It gives me the inter peace for every played piece!</p>
+        <img src="https://images.pexels.com/photos/1955955/pexels-photo-1955955.jpeg?auto=compress&amp;cs=tinysrgb&amp;fit=crop&amp;h=627&amp;w=1200"
+             alt="piano" width="500" height="250" align="left">
+
+</body>
+{% endblock %}
+
+</html>

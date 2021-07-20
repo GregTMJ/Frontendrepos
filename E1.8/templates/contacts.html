@@ -1,0 +1,41 @@
+{% extends 'Main.html' %}
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>About myself</title>
+</head>
+
+
+{% block content %}
+
+<body>
+<style>
+    h1 {color : white;
+    padding: 10px 10px 10px 10px;
+    height: 250%;
+    }
+    body {
+    background-image:
+    url("https://i.pinimg.com/originals/67/af/07/67af075af5156f5a1b059d5564d9843f.jpg");
+    background-repeat: no-repeat;
+    }
+</style>
+<br><br>
+<br><br>
+<br><br>
+
+<link rel="stylesheet" href="{% static 'Main_style.css' %}">
+
+<h1 align="center">Here you have my contacts:</h1>
+<br>
+<h1 align="center">Phone number: +79670422425 </h1>
+<br>
+<h1  align="center"><a href="https://www.instagram.com/grigoriysaliba/">Instagram: @grigoriysaliba</a></h1>
+<br>
+</body>
+
+{% endblock %}
+
+</html>

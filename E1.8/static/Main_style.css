@@ -1,0 +1,30 @@
+.navigation{
+    float: right;
+    height: 250%;
+}
+
+.navigation a{
+    height: 50%;
+    display: table;
+    float: left;
+    padding: 10px 30px;
+    background-color: #101010;
+}
+
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 30px;
+    color: blue;
+}
+
+.navigation a:hover{
+    background-color: white;
+    color: #101010;
+}
+
+.block{
+    height: 100px;
+    border-radius: 5px;
+    color: white;
+    }

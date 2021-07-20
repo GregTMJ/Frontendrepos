@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% load static %}
+     <link rel="stylesheet" href="{% static 'Main_style.css' %}">
+    <div class="header">
+        <div class="inner-header">
+            <div class="logo-container">
+                <h1>My Musical life</h1>
+            </div>
+
+            <ul class="navigation">
+                <a href="{% url 'home' %}"><li>Home</li></a>
+                <a href="{% url 'about' %}"><li>About</li></a>
+                <a href="{% url 'contacts' %}"><li>Contacts</li></a>
+            </ul>
+        </div>
+</div>
+<div class="content">
+
+</div>
+    <hr>
+</head>
+<body>
+{% block content %}
+{% endblock %}
+</body>
+</html>
