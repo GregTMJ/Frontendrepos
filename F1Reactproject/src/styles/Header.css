@@ -1,0 +1,9 @@
+.header-weather {
+
+    justify-content: center;
+    text-align: center;
+    font: 50px "Times New Roman",Arial, Serif;
+    font-weight: bold;
+    background-color: aliceblue;
+    padding-bottom: 40px;
+}

@@ -1,0 +1,16 @@
+ul.hourly-block {
+    list-style-type: none ;
+    width: auto ;
+
+}
+
+.hourly-cell {
+    justify-content: center;
+    text-align: center;
+    border: 1px solid grey;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: rgba(170,255,255,0.87);
+
+}

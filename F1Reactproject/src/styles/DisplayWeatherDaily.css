@@ -1,0 +1,27 @@
+ul.weatherInfo{
+    list-style-type: none;
+    width: auto;
+
+}
+
+.WeatherDaily {
+
+    display: block;
+    padding-top: 25px;
+    padding-right: 10px;
+    background-color: rgba(170,255,255,0.87);
+    align-content: center;
+
+}
+
+.DateDisplay {
+    text-align: center;
+    padding-bottom: 20px;
+    font: 30px "Times New Roman",Arial, Serif;
+    font-weight: bold;
+}
+
+.monthDisplay {
+    color: grey;
+    opacity: 50%;
+}
