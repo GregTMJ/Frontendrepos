@@ -1,0 +1,27 @@
+h4 {
+    font-family: "Times New Roman", Arial, Serif;
+    font-size: 0.5cm;
+}
+
+
+li {
+    font-family: "Times New Roman", Arial, Serif;
+    font-size: 0.5cm;
+}
+
+.Recipe {
+    position:relative;
+    display: flex;
+}
+
+.Ingredient {
+    height: 100px;
+    width: 500px;
+    padding-top: 100px;
+}
+
+.Process {
+    height: 100px;
+    width: 600px;
+    padding-top: 50px;
+}

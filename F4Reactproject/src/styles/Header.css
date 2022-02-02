@@ -1,0 +1,11 @@
+h1 {
+    font-family: "Times New Roman", Arial, Serif;
+    font-size: 2cm;
+    color: rgba(253,120,45,0.94);
+    text-align: center;
+    background: rgb(157,170,7);
+    background: radial-gradient(circle, rgba(157,170,7,0.3284664207479867) 0%,
+    rgba(236,204,41,1) 0%, rgba(227,222,12,0.8858893899356618) 71%, rgba(204,208,27,1) 100%, rgba(0,212,255,1) 100%);
+    padding-top: 15px;
+    padding-bottom: 20px;
+}

@@ -1,0 +1,96 @@
+.htmlFile {
+    background-color: rgba(253,233,65,0.94);
+}
+
+.cats {
+    position:relative;
+    display: flex;
+    justify-content: center;
+}
+
+
+.Dishes {
+    padding-top: 20%;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 300px;
+    height: 150px;
+    border: 1px solid grey;
+    justify-content: center;
+    text-align: center;
+    background-image: url("https://www.candyflosscrazy.com/html/images/Jacket%20Potato%20Cart%20Hire.jpg");
+    background-size: 100%;
+    -webkit-box-shadow: -5px -5px 5px -5px rgba(79, 80, 34, 0.6) inset;
+    -moz-box-shadow: -5px -5px 5px -5px rgba(79, 80, 34, 0.6) inset;
+    box-shadow: -5px -5px 5px -5px rgba(79, 80, 34, 0.6) inset;
+
+
+}
+
+.Dessert {
+    padding-top: 20%;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 300px;
+    height: 150px;
+    border: 1px solid grey;
+    justify-content: center;
+    text-align: center;
+    background-image: url("https://www.kellyschoice.org/wp-content/uploads/2019/03/Strawberry-Shortcake-1.jpg");
+    background-size: 100%;
+    -webkit-box-shadow: -5px -5px 5px -5px rgba(79, 80, 34, 0.6) inset;
+    -moz-box-shadow: -5px -5px 5px -5px rgba(79, 80, 34, 0.6) inset;
+    box-shadow: -5px -5px 5px -5px rgba(79, 80, 34, 0.6) inset;
+
+}
+
+.Events {
+    padding-top: 20%;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 300px;
+    height: 150px;
+    border: 1px solid grey;
+    justify-content: center;
+    text-align: center;
+    background-image: url("https://i.pinimg.com/736x/b6/08/09/b6080901689dcdddc982841cd41cf44e--dinner-party-desserts-no-bake-desserts.jpg");
+    background-size: 100%;
+    -webkit-box-shadow: -5px -5px 5px -5px rgba(79, 80, 34, 0.6) inset;
+    -moz-box-shadow: -5px -5px 5px -5px rgba(79, 80, 34, 0.6) inset;
+    box-shadow: -5px -5px 5px -5px rgba(79, 80, 34, 0.6) inset;
+
+}
+
+
+a:link {
+    justify-content: center;
+    color: rgba(255,163,129,0.88);
+    text-decoration: black;
+    font-family: "Times New Roman", Arial, Serif;
+    font-size: 1cm;
+}
+
+a:visited {
+    justify-content: center;
+    color: rgba(255,163,129,0.88);
+    text-decoration: black;
+    font-family: "Times New Roman", Arial, Serif;
+    font-size: 1cm;
+}
+
+a:active {
+    justify-content: center;
+    color: rgba(255,163,129,0.88);
+    text-decoration: black;
+    font-family: "Times New Roman", Arial, Serif;
+    font-size: 1cm;
+}
+
+a:hover {
+    justify-content: center;
+    color: rgba(255,163,129,0.88);
+    text-decoration: black;
+    background: lightblue;
+    font-family: "Times New Roman", Arial, Serif;
+    font-size: 1cm;
+}
